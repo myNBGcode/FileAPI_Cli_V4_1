@@ -127,7 +127,8 @@
 			For the Ethnofile command, named processenthofilesfile, the user, to get a mail notification, must declare the below commands
 			depending on the situtation:
 				  {
-					"CommandName": "sendethnofiles", // Internal command, called by CLI, for sending a file to the Ethnofiles system. When the user executes the processenthofilesfile command, a mail notification will be sent.
+					"CommandName": "sendethnofiles", // Internal command, called by CLI, for sending a file to the Ethnofiles system.
+									    When the user executes the processenthofilesfile command, a mail notification will be sent.
 					"Statuses": [ "Success", "Error" ],
 					"Recipients": [ "test@domain.gr", "test2@domain.gr" ]
 				  }
